@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Helvetica,Tahoma,Arial,STXihei," 华文细黑 ","Microsoft YaHei"," 微软雅黑 ",sans-serif;	
+	font-size: 10px;
+	min-width: 560px;
+}
+img {
+	width: 80px;
+	height: 80px;
+}
+.team-name {
+	color: #78B50F;
+}
+.wrap {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #999;
+	background-color: #eee;
+	overflow: auto;
+    zoom: 1;
+}
+.team {
+	float: left;
+	width: 160px;
+	padding: 20px;
+	border: 1px solid #999;
+	background-color: #fff;
+	overflow: auto;
+    zoom: 1;
+}
+.team img {
+	float: left;
+}
+.team p {
+	float: left;
+	padding-left: 20px;
+}
+.parter {
+	float: right;
+	width: 80px;
+	padding: 20px;
+	padding-bottom: 0;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+.parter ul {
+	list-style: none;
+}
+.parter ul li {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 20px;
+}
+.intro {
+	border: 1px solid #999;
+	margin: 0 142px 0 222px;
+	padding: 20px;
+	background-color: #fff;
+}
+.intro h1 {
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+.intro h2 {
+	font-size: 2em;
+	color: #78B50F;
+	margin-bottom: 10px;
+}
+.intro p {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
