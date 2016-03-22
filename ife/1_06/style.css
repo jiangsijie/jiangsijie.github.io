@@ -1,0 +1,379 @@
+/*html5*/
+article,aside,footer,header,section{display:block}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+body {
+	font: 12px "SimHei";
+	background-color: #44565C;
+}
+.container {
+	width: 892px;
+	height: 1386px;	
+	margin: 0 auto;
+	padding: 0 44px;
+	background-color: #fff;
+}
+#top-header {
+	position: relative;
+	width: 892px;
+	height: 61px;
+	border-bottom: 2px solid #938e8c;	
+}
+#top-header .header-url {
+	width: 110px;
+	height: 61px;
+	color: #ffffff;
+	background-color: #DB3E75;	
+}
+#top-header p {
+	position: absolute;
+	bottom: 6px;
+}
+.header-url p {	
+	left: 7px;
+}
+#top-header .date {	
+	right: 0;
+	color: #d45d5c;
+}
+.index {
+	position: relative;
+	width: 892px;
+	height: 301px;
+	margin: 34px 48px 40px 0;	
+}
+.index .img-wrap {
+	position: relative;
+	width: 641px;
+	height: 301px;
+	background-image: url(images/01.png);
+}
+.img-wrap div {
+	position: absolute;
+	top: 0;
+	width: 191px;
+	height: 301px;
+	filter: alpha(opacity=40);
+	opacity: 0.4;
+}
+.img-wrap .left-wrap {
+	left: 0;
+	background-color: #75b86b;
+}
+.img-wrap .right-wrap {
+	right: 0;
+	background-color: #cc8091;
+}
+.index .aside {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 203px;
+	height: 299px;
+	border-top: 2px solid #cc8091;
+	font-family: "Microsoft YaHei","微软雅黑";	
+}
+.aside h2 {
+	height: 32px;
+	font-size: 24px;
+	line-height: 40px;
+	font-variant:small-caps;
+	text-decoration: underline;	
+	color: #000000;	
+}
+.aside .desc {
+	padding: 5px 0;
+	font-family: "STKaiti";
+	font-style: italic;
+	line-height: 10px;
+	color: #676767;
+}
+.aside .state {
+	height: 140px;
+	font-size: 116px;
+	font-style: italic;
+	text-indent: -8%;
+	color: #75b86b;
+}
+.aside .num {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 203px;
+	height: 60px;
+}
+.aside .num span {
+	position: absolute;
+	color: #cc8091;
+}
+.aside .num .point {
+	top: 0;
+	left: 10px;
+	font-size: 55px;
+}
+.aside .num .repeat {
+	left: 90px;
+	bottom: 0;	
+}
+.aside .num .str {
+	left: 90px;
+	bottom: 12px;
+}
+.defi {
+	overflow: hidden;
+	zoom: 1;
+}
+.defi .per {
+	float: left;
+	width: 227px;
+	margin-right: 27px;
+	font-family: "Microsoft YaHei","微软雅黑";
+}
+.per h3 {
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.per h3.what {
+	color: #418c59;
+}
+.per h3.when {
+	color: #d2994f;
+}
+.per h3.how {
+	color: #cc7680;
+}
+.per p {
+	font-family: "SimSun";
+	line-height: 16px;
+	color: #767777;	
+}
+.speci p {
+	line-height: 20px;
+}
+.per ul {
+	margin: 30px 0 0 3px;
+}
+.per ul li {
+	font-weight: bold;
+	line-height: 16px;
+	color: #231815;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+ul li span {
+	font-style: italic;
+	color: #cd4a48;
+}
+.front {
+	overflow: hidden;
+	zoom: 1;
+	margin-top: 70px;
+	width: 892px;
+}
+.front .front-news {
+	float: left;
+	width: 415px;
+	height: 624px;	
+}
+.front-news .front-title {
+	border-bottom: 2px solid #11456b;
+	font-weight: bold;
+}
+.front-news header.front-title h2 {
+	font-weight: bold;
+	color: #11456b;	
+}
+.front-news .front-title h2 span {
+	font-size: 72px;
+	font-style: italic;
+	line-height: 1;
+	color: #f5e327;
+}
+.front-news .front-title h2.en-title {
+	font-size: 42px;
+	line-height: 16px;
+}	
+.front-news .front-title h2.zh-title {
+	margin-top: 16px;
+	margin-bottom: 10px;
+	font-size: 33px;	
+}
+.front-content {
+	padding-top: 25px;
+}
+.front-content span {
+	float: left;
+	margin-right: 5px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	font-size: 70px;	
+	line-height: 1;
+	color: #f5e327;
+}
+.front-content p {
+	font-family: "STSong";
+	line-height: 16px;
+	color: #767777;
+}
+.front-content p.last-p {
+	text-indent: 2em;
+}
+.front-content img {
+	float: right;
+	margin: 15px 5px 15px 15px;
+	width: 165px;
+	height: 287px;
+}
+.front-links {
+	float: right;
+	width: 458px;
+}
+.front-links .front-pc {
+	position: relative;
+}
+.front-links .front-pc img {
+	display: block;
+	width: 458px;
+	height: 275px;
+}
+.front-pc p {
+	position: absolute;
+	bottom: 0;
+	width: 458px;
+	height: 61px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	background-color: #000000;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+.front-pc p .first {
+	position: absolute;
+	top: 8px;
+	left: 38px;
+	display: block;
+	border-left: 3px solid #72b16a;
+	padding-left: 10px;
+	height: 44px;
+	font-size: 26px;
+	line-height: 44px;
+	color: #ffffff;	
+}
+.front-pc p .second {
+	position: absolute;
+	top: 31px;
+	left: 165px;
+	font-style: italic;
+	color: #72b16a;
+}
+.front-links .somelinks {
+	position: relative;
+	margin-top: 31px;
+	width: 458px;
+	height: 318px;
+	background-color: #eeedd6;
+}
+.somelinks ul {
+	padding:30px 20px 0 45px;
+	width: 393px;	
+}
+.somelinks ul li {
+	position: relative;
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-family: "STSong";
+	text-align: left;
+	line-height: 20px;
+	color: #5a5b5b;
+}
+.somelinks ul li:before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: -15px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #10456b;
+}
+.somelinks ul li span {
+	position: absolute;
+	right: 0;
+	font-size: 12px;
+	font-style: italic;
+	text-align: right;
+	color: #5a5b5b;
+}
+.somelinks .num-wrap {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 260px;
+	height: 160px;
+	background-color: #d45d5c;
+}
+.num-wrap .big-zero {
+	position: absolute;
+	top: 7px;
+	left: 11px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	font-size: 110px;
+	color: #ffffff;	
+}
+.num-wrap div {
+	position: absolute;
+	height: 80px;
+	padding: 6px 0 0 6px;
+	top: 40px;
+	left: 80px;
+	color: #ffffff;
+	border-left: 2px solid #ffffff;
+}
+.num-wrap p.big-word {
+	font-size: 21px;
+	font-style: italic;
+	line-height: 24px;
+}
+.somelinks p.helloworld {
+	position: absolute;
+	left: 272px;
+	bottom: 40px;
+	width: 174px;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+	text-indent: 3em;
+	color: #5a5b5b;
+}
+.somelinks span {
+	position: absolute;
+	font-size: 72px;
+	font-style: normal;
+	color: #d45d5c;	
+}
+.somelinks span.start {
+	top: 168px;
+	left: 265px;
+}
+.somelinks span.end {
+	bottom: -15px;
+	right: 15px;
+}
+footer {
+	overflow: hidden;
+	zoom: 1;
+	margin-top: 40px;
+	border-top: 1px solid #938e8c;
+	width: 892px;
+}
+footer p {
+	float: right;
+	color: #d45d5c;
+}
