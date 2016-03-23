@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	outline: 1px solid #999;
+}
+.bground{
+	padding: 10px;
+	background-color: #fff;	
+	width: 100%;
+	overflow: auto;
+	zoom: 1;
+	
+	box-sizing: border-box; 
+}
+[class^="col"]{
+	padding: 5px;
+}
+@media screen and (min-width: 768px){
+	*{
+		box-sizing: border-box; 
+	}
+	.col-md-1{
+		margin: 10px;
+		float: left;
+		background-color: #eee;
+		height: 50px;
+		width: calc(8.3% - 20px);
+	}
+	.col-md-2{
+		margin: 10px;
+		float: left;
+		background-color: #eee;
+		height: 50px;
+		width: calc(16.6% - 20px);
+	}
+	
+	.col-md-3{
+		margin: 10px;
+		float: left;
+		background-color: #eee;
+		height: 50px;
+		width: calc(25% - 20px);
+	}
+	.col-md-4{
+		margin: 10px;
+		float: left;
+		background-color: #eee;
+		height: 50px;
+		width: calc(33.3% - 20px);
+		
+	} 
+	.col-md-6{
+		margin: 10px;
+		float: left;
+		background-color: #eee;
+		height: 50px;
+		width: calc(50% - 20px);
+	}
+	.col-md-1:before{
+		content: "1栏";
+	}
+	.col-md-2:before{
+		content: "2栏";
+	}
+	.col-md-3:before{
+		content: "3栏";
+	}
+	.col-md-4:before{
+		content: "4栏";
+	}
+	.col-md-6:before{
+		content: "6栏";
+	}
+}
+
+@media screen and (max-width: 768px){
+	*{
+		box-sizing: border-box; 
+	}
+	.col-sm-1{
+		margin: 10px;
+		float: left;
+		background-color: #eee;
+		height: 50px;
+		calc(8.3% - 20px)
+		content: "123";
+	} 
+	.col-sm-2{
+		margin: 10px;
+		float: left;
+		background-color: #eee;
+		height: 50px;
+		width: calc(16.7% - 20px);
+	} 
+	.col-sm-3{
+		margin: 10px;
+		float: left;
+		background-color: #eee;
+		height: 50px;
+		width: calc(25% - 20px);
+	} 
+	.col-sm-6{
+		margin: 10px;
+		float: left;
+		background-color: #eee;
+		height: 50px;
+		width: calc(50% - 20px);
+	} 
+	.col-sm-8{
+		margin: 10px;
+		float: left;
+		background-color: #eee;
+		height: 50px;
+		width: calc(66.6% - 20px);
+	} 
+	.col-sm-12{
+		margin: 10px;
+		float: left;
+		background-color: #eee;
+		height: 50px;
+		width:calc(100% - 20px);
+	} 
+	.col-sm-2:before{
+		content: "2栏";
+	}
+	.col-sm-3:before{
+		content: "3栏";
+	}
+	.col-sm-6:before{
+		content: "6栏";
+	}
+	.col-sm-8:before{
+		content: "8栏";
+	}
+	.col-sm-12:before{
+		content: "12栏";
+	}	
+	
+}
