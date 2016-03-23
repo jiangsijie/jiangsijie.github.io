@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+}
+body{
+	min-width: 800px;
+}
+.head{
+	background-color: #000;
+	padding: 10px;
+}
+.head > img{
+	width: 150px;
+	height: 50px;
+	margin-left: 20px;
+}
+.headlist {
+	float: right;
+	margin-right: 20px;
+	
+}
+.headlist > ul > li{
+	float: left;
+	color: #ccc;
+	margin-left: 1.5em;
+	line-height: 50px;
+	list-style: disc;
+}
+.headlist > ul > li > a{
+	font-size: 15px;	
+	text-decoration: none;
+}
+.headlist > ul > li > a:link{color: #fff;}
+.headlist > ul > li > a:visited{color: #fff;}
+.headlist > ul > li > a:hover{color: #ccc;}
+.headlist > ul > li > a:active{color: #fff;}
+
+.body{
+	background-color: #ccc;
+	position: relative;
+	width: 100%;
+	overflow: auto; 
+	zoom: 1;
+}
+
+.right{
+	width: 450px;
+	background-color: #FFF;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	padding-top: 20px;
+	box-shadow: 2px 2px #999;
+	-moz-box-shadow: 2px 2px #999;
+	-webkit-box-shadow: 2px 2px #999;
+	overflow: auto;
+	zoom: 1;
+}
+.left{
+	margin-right: 470px;
+	padding: 20px;
+	min-width: 300px;
+	overflow: auto;
+	zoom: 1;
+}
+.right > h2{
+	text-align: center;
+}
+
+.right table{
+	border-spacing: 20px;
+	margin: auto;
+}
+.right table td{
+	height: 25px;
+}
+.rightalign{
+	text-align: right;
+	font-size: 18px;
+}
+.grey{
+	color: #ccc;
+	font-size: 14px;
+	vertical-align: top;
+}
+select {
+	border: solid 1px #ccc;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+	width: 60px;
+	height: 25px;
+	padding-left: 5px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+.textarea > textarea{
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+.submit{
+	text-align: center;
+}
+.submit > input{
+	width: 100%;
+	height: 50px;
+	background-color: #00F;
+	font-size: 30px;
+	letter-spacing: 20px;
+	color: #fff;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+
+.article{
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 2px 2px #999;
+	-moz-box-shadow: 2px 2px #999;
+	-webkit-box-shadow: 2px 2px #999;
+}
+.article > h3{
+	color: #999; 
+	margin-top: 10px;
+}
+.article > h4{
+	color: #CCC;
+	display: inline-block;
+	margin-top: 10px;
+}
+.content{
+	margin-top: 10px;
+}
+.content > p{
+	text-indent: 2em; 
+	line-height: 1.5em;
+}
+.content > img{
+	width: 20%;
+	height: 15%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.content > ul{
+	margin-left: 10px;
+	margin-top: -10px;
+}
+.content > ul > li{
+	list-style: none;
+	margin-top: 5px;
+}
+.divider{
+	height: 20px;
+	width: 100%;
+	border: none;
+}
+
+.picture > li{
+	float: left;
+	margin-left: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-top: 10px;
+	list-style: none;
+}
+.picture p{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.picture img{
+	width: 200px;
+	height: 150px;
+}
+.clear{
+	clear: both; 
+}
+.sort{
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.sort > li{
+	list-style: number;
+	margin-top: 5px;
+}
+.article > table{
+	border-spacing: 0;
+	line-height: 30px;
+	width: 100%;
+}
+
+.twotd{
+	width: 40%;
+	color: #fff;	
+}
+.onetd{
+	width: 20%;
+	color: #fff;
+}
+.tableblack{
+	background-color: #000;
+}
+.tablegrey{
+	background-color: #ccc;
+}
+.foot{
+	height: 70px;
+	background-color: #000;
+	padding: 10px;
+}
+.foot > p{
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
