@@ -1,0 +1,58 @@
+/*html5*/
+article,aside,footer,header,section,nav{display: block;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, 
+form,fieldset,input,textarea,p,blockquote,th,td { 
+    padding: 0; 
+    margin: 0; 
+} 
+body{
+    font-size: 12px;
+    font-family:"SimHei","Microsoft Yahei","Arial",sans-serif;
+    color: #67778b;
+    background-color: #eeeeed;
+}
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+} 
+fieldset,img,button,input{ 
+    border: 0; 
+} 
+input,select{
+    font-family:"SimHei","Microsoft Yahei","Arial";
+}
+address,caption,cite,code,dfn,em,strong,th,var { 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+ol,ul { 
+    list-style: none; 
+} 
+caption,th { 
+    text-align: left; 
+} 
+h1,h2,h3,h4,h5,h6 { 
+    font-weight: normal; 
+    font-size: 100%; 
+}
+img{
+    display: block;
+}
+/*clearfix hack*/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+a{
+    font-family:"SimHei","Microsoft Yahei","Arial";
+    text-decoration: none;
+    color: #67778b;
+}
+.black-color {
+    color: #000;
+}
