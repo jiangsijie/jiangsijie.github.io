@@ -437,7 +437,7 @@ footer .footer_bottom br {
 	}
 }
 @media screen and (max-width: 1010px) {
-	footer .footer_top > div {
+	footer .footer_top_pc > div {
 		padding-left: 50px;
 	}
 }
