@@ -1,0 +1,466 @@
+/*html5*/
+article,aside,footer,header,section,nav{display: block;}
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+em {
+    font-style: normal;
+    font-family: Helvetica,Arial,"微软雅黑","黑体",sans-serif;
+}
+
+
+ul {
+	list-style: none;
+}
+/*clearfix hack*/
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+html {
+	font-size: 12px;
+}
+body {
+	width: 100%;
+    height: 100%;
+    font-family: Helvetica,Arial,"微软雅黑","黑体",sans-serif;
+    text-align: left;
+    color: #333;
+    background-color: #ffffff;
+}
+.container {
+	height: 100%;
+}
+/*header部分样式开始*/
+header {
+	padding: 0 110px;
+	height: 70px;
+    background-color: #000000;
+}
+header .header-wrapper {
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1180px;
+}
+.header-wrapper a.logo, nav div > a {
+	color: #fff;
+	height: 70px;
+    font-size: 1.5rem;
+    line-height: 70px;
+}
+.header-wrapper a.logo {
+	float: left;
+}
+.header-wrapper a.logo img {
+	float: left;
+	padding-top: 5px;
+}
+.header-wrapper a.logo .company {
+	margin-left: -7px;
+	color: #fff;
+}
+.header-wrapper nav {
+	float: right;
+}
+.header-wrapper nav div {
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+}
+nav div a {
+	padding: 0 22px;
+	border-right: 1px solid #fff;
+}
+nav div a.about {
+	border: none;
+}
+.header-wrapper nav div:hover {
+	background-color: #fff;
+}
+nav div:hover > a {
+	color: #000;
+}
+nav div:hover .product-series {
+	display: block;
+}
+.header-wrapper nav .product-series {
+	display: none;
+	position: absolute;
+	top: 70px;
+	z-index: 2;
+	width: 100%;
+	background-color: #fff;
+	color: #000;
+}
+nav .product-series li {
+	margin: 10px 0;
+}
+.product-series li a {
+	border: none;
+	color: #757575;
+	font-size: 1.5rem;
+}
+.header-wrapper .m_nav {
+	float: right;
+	height: 70px;
+}
+.header-wrapper .m_nav a {
+	display: inline-block;
+}
+.m_nav a img {
+	margin-top: 20px;
+	height: 30px;
+}
+@media screen and (max-width: 1280px) {
+	header {
+   		padding: 0 30px;
+	}
+	header .company {
+		display: none;
+	}
+}
+@media screen and (min-width: 970px) {
+	header .m_nav {
+		display: none;
+	}	
+}
+@media screen and (max-width: 970px) {
+	header .company {
+		display: inline;
+	}
+	header nav{
+   		display: none;
+	}
+	header .m_nav {
+		display: block;
+	}
+	.header-wrapper {
+		padding-right: 20px;
+	}	
+}
+/*header部分样式结束*/
+/*.show-pic部分样式开始*/
+.show-pic {
+	position: relative;
+	width: 100%;
+    overflow: hidden; 
+    max-width: 1440px; 
+       margin: 0 auto;
+}
+.show-pic .show-wrapper {
+	position: relative;
+    overflow: hidden;
+	width: 100%;
+}
+.show-wrapper div {
+	float: left;
+	width: 100%;
+}
+.show-wrapper div a {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.show-wrapper div a img {
+	width: 100%;
+	height: auto;
+	display: none;
+}
+.show-wrapper div img.pc {
+	display: block;
+	max-width: 1440px;
+}
+@media screen and (max-width: 1200px) {
+	.show-wrapper div img.pd {
+		display: block;
+	}
+	.show-wrapper div img.pc {
+		display: none;
+	}
+}
+@media screen and (max-width: 900px) {
+	.show-wrapper div img.mb{
+		display: block;
+	}
+	.show-wrapper div img.pd{
+		display: none;
+	}
+}
+@media screen and (max-width: 1120px) {
+}
+.show-pic .pic-nav {
+	position: absolute;
+	width: 100%;
+	max-width: 1440px;
+	bottom: 0;
+	height: 53px;
+}
+.pic-nav ul {
+	width: 100%;
+	
+	display: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	box-sizing: border-box;
+}
+.pic-nav ul.pic-nav1 li {
+	position: relative; 
+    width: 16.667%;
+    float: left;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+}
+ul.pic-nav1 li.on {
+	background-color: rgba(0, 134, 239, 0.6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E50086e5,endColorstr=#E50086e5);
+}
+ul.pic-nav1 li a {  
+    padding: 5px 0;
+	height: 50px;
+	color:#fff;	
+}
+ul.pic-nav1 li h4 {
+	font-size: 1.5rem;
+	text-align: center;
+}
+ul.pic-nav1 li span {
+	display: block;
+	height: 3px;
+	width: 100%;
+	background-color: #000;
+	opacity: 0.3;
+	filter:alpha(opacity=50);
+}
+.pic-nav ul.pic-nav2 {
+	position: absolute;
+	bottom: 15px;
+	float: left;
+	text-align: center;
+}
+.pic-nav ul.pic-nav2 li {
+	display: inline-block;
+    margin: 0 8px;
+}
+ul.pic-nav2 li a {
+	display: block;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    border-radius: 50%;
+}
+ul.pic-nav2 li.on a {
+	background-color: rgba(0, 134, 239, 0.6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E50086e5,endColorstr=#E50086e5);
+}
+/*.show-pic部分样式结束*/
+/*.information部分样式开始*/
+/*.information部分样式结束*/
+/*.sales部分样式开始*/
+.sales {
+	background: #ffffff;
+    overflow: hidden;
+    margin: 10px 100px;
+}
+.sales .sales-wrapper {
+	max-width: 1180px;
+    margin: 0 auto;
+}
+.sales-wrapper .title {
+	width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.sales-wrapper .title .line {
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #c3c3c3;
+    z-index: 0;
+}
+.sales-wrapper .title img {
+	display: block;
+	width: 100px;
+    padding: 0 58px;
+    margin: 0 auto;
+    position: relative;
+    background: #ffffff;
+}
+.sales-wrapper ul {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sales-wrapper .ul1 li {
+ 	width: 50%;
+    float: left;   
+    cursor: pointer;
+}
+.sales-wrapper .ul2 li {
+ 	width: 33.33%;
+    float: left;   
+    cursor: pointer;
+}
+.sales-wrapper ul a {
+	background-color: gray;
+	display: block;
+	margin: 3px;
+	height: 100px;
+	text-align: center;
+	font-size: 1.5rem;
+	padding-top: 50px;
+}
+@media screen and (max-width: 900px) {
+	.sales {
+   		margin: 0px 12px;
+    	margin-bottom: 40px;
+	}
+	.sales .title {
+   		margin-top: 18px;
+    	margin-bottom: 13px;
+	}
+	.sales .title img {
+    	width: 80px;
+    	padding: 0 25px;
+	}
+}
+/*.sales部分样式结束*/
+footer {
+    background: #ebebeb;
+    z-index: 999;
+}
+footer .footer_top_mb {
+    display: none;
+    height: 100px;
+    width: 100%;
+    background: #ebebeb;
+}
+footer .footer_top_mb div {
+    width: 50%;
+    float: left; padding-top: 20px;
+}
+footer .footer_top_mb p {
+    font-size: 1.5rem;
+    color: #676767;
+    text-align: center;
+    margin-bottom: 5px;
+}
+footer .footer_top_mb img {
+	border-radius: 100%;
+}
+footer .footer_top_pc {
+	height: 150px;
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+footer .footer_top_pc > div {
+    width: 25%;
+    float: left;
+    font-family: Helvetica,Arial,"微软雅黑","黑体",sans-serif;
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+footer .footer_top_pc > div dt {
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.5rem;
+    color: #676767;
+    font-weight: bold;
+}
+footer .footer_top_pc > div ul {
+    width: 100%;
+}
+footer .footer_top_pc > div ul.ul_bg {
+    background: url(../img/ft_line.png) no-repeat right 5px;
+}
+footer .footer_top_pc > div li {
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    color: #676767;
+}
+footer .footer_top_pc > div li a {
+    font-size: 1.25rem;
+    color: #676767;
+    display: inline-block;
+}
+footer .footer_bottom {
+    height: 60px;
+    background: #000000;
+    color: #c3c3c3;
+    font-size: 1.5rem;
+}
+footer .footer_bottom p {    position: relative;
+    padding-right: 60px;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: top;
+    float: right;
+    margin-right: 10%;
+}
+footer .footer_bottom br {
+	display: none;
+}
+@media screen and (max-width: 1350px) {
+	footer .footer_top_pc {
+		max-width:91%;
+	}
+}
+@media screen and (max-width: 1200px) {
+	footer .footer_top_pc {
+		max-width: 98%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	footer .footer_top_pc {
+		max-width:94%;
+	}
+}
+@media screen and (max-width: 1010px) {
+	footer .footer_top > div {
+		padding-left: 50px;
+	}
+}
+@media screen and (max-width: 750px) {
+	.sales {
+		margin-bottom: 10px;
+	}
+	footer .footer_top_pc {
+		display: none;
+	}
+	footer .footer_top_mb {
+		display: block;
+	}
+	footer .footer_bottom p {
+   		display: block;
+    	margin: 0 auto;
+    	float: none;
+    	width: 100%;
+    	text-align: center;
+    	height: 60px;
+    	line-height: 30px;
+	}
+	.footer_bottom p br {
+		display: inline;
+	}
+}
